@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/typescript.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dungeons & Dragons Text RPG</title>
+</head>
+<body>
+    <div id="app">
+        <h1>Welcome to the Realm!</h1>
+        <p>Before you begin your epic quest, tell us your name, brave adventurer.</p>
+
+        <div class="character-creation-form">
+            <label for="char-name-input">Character Name:</label>
+            <input type="text" id="char-name-input" placeholder="Enter your name" maxlength="20">
+            <button id="start-game-button">Begin Adventure</button>
+        </div>
+
+        <div id="game-output"></div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
